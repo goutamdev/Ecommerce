@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css"> 
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+        <div class="container-fluid justify-content-between align-items-center px-3">
+      
+          <!-- Mobile-centered logo -->
+          <a class="navbar-brand mx-auto d-lg-none" href="#">
+            <img src="./img/Logo.png" alt="Epexlab" class="logo-img">
+          </a>
+      
+          <!-- Mobile toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Navbar content -->
+          <div class="collapse navbar-collapse justify-content-lg-between" id="navbarNav">
+      
+            <!-- Desktop logo -->
+            <a class="navbar-brand d-none d-lg-block" href="#">
+              <img src="./img/Logo.png" alt="Epexlab" class="logo-img">
+            </a>
+      
+            <!-- Navigation links -->
+            <ul class="navbar-nav nav-items-container mx-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link nav-link-padding active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-padding" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-padding" href="#">Our App</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-padding" href="#">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-padding" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-warning nav-link-padding login-btn" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      
+    </header>
+    <main>
+      <div class="container py-4">
+        <div class="row align-items-center">
+          
+          <!-- Second Box: Image (shown first on mobile) -->
+          <div class="col-12 col-lg-6 order-1 order-lg-2 text-center">
+            <img src="./img/box2.png" alt="Sample" class="img-fluid">
+          </div>
+      
+          <!-- First Box: Text content (shown second on mobile) -->
+          <div class="col-12 col-lg-6 order-2 order-lg-1">
+            <h2 class="mb-3">We boost
+              growth for your statup business</h2>
+            <p class="mb-4">Our goal is top at the heart of creativity services industry as a digital creator. In has a after comments.</p>
+            <a href="#" class="btn btn-warning" style="display: inline;">Get Started</a>
+            <div class="learn-more-button" style="text-align: right;">
+              <div class="logo-circle">
+                <div class="play-icon">▶</div>
+              </div>
+              <span>Learn More</span>
+            </div>
+            
+          </div>
+      
+        </div>
+      </div>
+      
+    </main>
+    <services>
+      <h5 style="text-align: center; color: gray;">Our Vision and Our Goal</h5>
+
+<div class="card-wrapper">
+  <div class="custom-card">
+    <img src="./img/Activity.png" class="card-img" alt="Activity">
+    <div class="card-body">
+      <h5 class="card-title">Graphic Design</h5>
+      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, eveniet cupiditate necessitatibus consectetur velit cumque autem iste illo! Officia, deleniti voluptatum et iure ratione soluta minima magnam! Commodi, explicabo sapiente?</p>
+      <a href="#" class="btn btn-warning">Learn</a>
+    </div>
+  </div>
+
+  <div class="custom-card">
+    <img src="./img/Video.png" class="card-img" alt="Video">
+    <div class="card-body">
+      <h5 class="card-title">Video Editing</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae molestias id quaerat. Officiis consequuntur dolorem aliquam laudantium iste. Unde, dolorum deserunt iusto fuga doloribus optio. Ea quas autem quaerat laboriosam.</p>
+      <a href="#" class="btn btn-warning">Learn</a>
+    </div>
+  </div>
+
+  <div class="custom-card">
+    <img src="./img/Chart.png" class="card-img" alt="Chart">
+    <div class="card-body">
+      <h5 class="card-title">Digital Marketing</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum, tempora nisi aliquid quaerat voluptas reprehenderit? Labore doloribus laudantium alias modi? Provident sed minus eligendi ex earum nobis veniam ipsa?</p>
+      <a href="#" class="btn btn-warning">Learn</a>
+    </div>
+  </div>
+</div>
+
+    </services>
+    <more>
+    <div class="container my-5">
+      <div class="row align-items-center flex-column flex-md-row">
+        
+        <!-- Text Box (left on desktop, bottom on mobile) -->
+        <div class="col-md-5 order-2 order-md-1 px-md-5 mt-4 mt-md-0">
+          <h5>Many Blocks and Components</h5>
+          <p>
+            Startup Framework contains components and complex blocks which can easily be integrated into almost any design. 
+          </p>
+          <a href="#" class="btn btn-outline-dark">Learn More</a>
+        </div>
+    
+        <!-- Image Box (right on desktop, top on mobile) -->
+        <div class="col-md-7 order-1 order-md-2 text-center">
+          <img src="./img/services.png" alt="Chart" class="img-fluid" style="max-width: 100%; height: auto;">
+        </div>
+    
+      </div>
+    </div>
+    </more>
+    <testimonials>
+      <section class="bg-white text-dark py-5">
+        <div class="container">
+          <p class="text-uppercase text-center small mb-1">Testimonials</p>
+          <h2 class="text-center mb-5">What Clients say about us</h2>
+      
+          <div class="row gx-4 gy-4">
+            <!-- Card 1 -->
+            <div class="col-12 col-md-6">
+              <div class="card h-100 border-0 bg-white text-dark rounded-4 p-3 shadow-sm">
+                <div class="d-flex align-items-start gap-3">
+                  <img src="img/customer1.png" class="rounded-3" alt="Rayhan" width="50" height="50">
+                  <div>
+                    <p class="mb-3">
+                      Get a fully retina ready site when you build with Startup Framework.
+                      Websites look sharper and more gorgeous on devices with retina display support.
+                    </p>
+                    <strong class="text-uppercase small text-primary">Rayhan Curran</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Card 2 -->
+            <div class="col-12 col-md-6">
+              <div class="card h-100 border-0 bg-white text-dark rounded-4 p-3 shadow-sm">
+                <div class="d-flex align-items-start gap-3">
+                  <img src="img/Customer2.png" class="rounded-3" alt="Kayley" width="50" height="50">
+                  <div>
+                    <p class="mb-3">
+                      As a business targeting high net worth individuals, we were looking
+                      for a slick, cool and mini-malistic design for our website.
+                    </p>
+                    <strong class="text-uppercase small text-primary">Kayley Frame</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Card 3 -->
+            <div class="col-12 col-md-6">
+              <div class="card h-100 border-0 bg-white text-dark rounded-4 p-3 shadow-sm">
+                <div class="d-flex align-items-start gap-3">
+                  <img src="img/Customer3.png" class="rounded-3" alt="Gene" width="50" height="50">
+                  <div>
+                    <p class="mb-3">
+                      The most important part of the Startup Framework is the samples.
+                    </p>
+                    <strong class="text-uppercase small text-primary">Gene Whitfield</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Card 4 -->
+            <div class="col-12 col-md-6">
+              <div class="card h-100 border-0 bg-white text-dark rounded-4 p-3 shadow-sm">
+                <div class="d-flex align-items-start gap-3">
+                  <img src="img/Customer4.png" class="rounded-3" alt="Allan" width="50" height="50">
+                  <div>
+                    <p class="mb-3">
+                      I've built my website with Startup just in one day, and it was ready-to-go.
+                    </p>
+                    <strong class="text-uppercase small text-primary">Allan Kim</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      
+      </testimonials>
+      <team>
+      <p style="color:gray; text-align: center;">Our Team</p>
+      <h2 class="text-center mb-5">Meet The Team</h2>
+      <section class="bg-white py-5">
+        <div class="container">
+          <div class="row px-3 px-md-0 gy-4">
+      
+            <!-- Card 1 -->
+            <div class="col-12 col-md-4">
+              <div class="text-center bg-white p-4 h-100">
+                <img src="img/vanessa.png" alt="Vanessa Laird" class="rounded-circle mb-3" width="100" height="100">
+                <h5 class="text-primary fw-semibold mb-1">Vanessa Laird</h5>
+                <p class="text-uppercase text-muted small letter-spacing">UI Designer</p>
+              </div>
+            </div>
+      
+            <!-- Card 2 -->
+            <div class="col-12 col-md-4">
+              <div class="text-center bg-white p-4 h-100">
+                <img src="img/mason.png" alt="Mason Campbell" class="rounded-circle mb-3" width="100" height="100">
+                <h5 class="text-primary fw-semibold mb-1">Mason Campbell</h5>
+                <p class="text-uppercase text-muted small letter-spacing">UI Designer</p>
+              </div>
+            </div>
+      
+            <!-- Card 3 -->
+            <div class="col-12 col-md-4">
+              <div class="text-center bg-white p-4 h-100">
+                <img src="img/Irea.png" alt="Irea Evans" class="rounded-circle mb-3" width="100" height="100">
+                <h5 class="text-primary fw-semibold mb-1">Irea Evans</h5>
+                <p class="text-uppercase text-muted small letter-spacing">Client Manager</p>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      
+      </team>
+      <contact>
+        <p style="color:gray; text-align: center;">Contact</p>
+      <h2 class="text-center mb-5">Subscribe to our News Letter</h2>
+      <div class="container my-5">
+        <div class="row align-items-center flex-column flex-md-row">
+          
+          <!-- Text Box (left on desktop, bottom on mobile) -->
+          <div class="col-md-7 order-1 order-md-2 px-md-5 mt-4 mt-md-0">
+          
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+            </p>
+            <div class="container my-4">
+              <div class="mb-3">
+                <input type="email" class="form-control bg-white" placeholder="Your email here">
+              </div>
+              <button class="btn btn-warning w-100">Subscribe our Newsletter</button>
+            </div>
+            
+          </div>
+      
+          <!-- Image Box (right on desktop, top on mobile) -->
+          <div class="col-md-5 order-2 order-md-1 text-center">
+            <img src="./img/email.png" alt="Chart" class="img-fluid" style="max-width: 100%; height: auto;">
+          </div>
+      
+        </div>
+      </div>
+      </contact>
+      <footer class="bg-white text-dark py-3">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-4 text-center text-md-left">
+              <img src="./img/Logo.png" alt="Epixelab Logo" height="30" class="mb-2 mb-md-0">
+              <span class="text-muted d-block d-md-inline">© 2020 Epixelab. All rights reserved.</span>
+            </div>
+            <div class="col-md-8 text-center text-md-right mt-2 mt-md-0">
+              <a href="#" class="text-dark px-2 text-decoration-none">Privacy Policy</a>
+              <a href="#" class="text-dark px-2 text-decoration-none">Terms of Service</a>
+              <a href="#" class="text-dark px-2 text-decoration-none">Portfolio</a>
+              <a href="#" class="text-dark px-2 text-decoration-none">How it Works</a>
+              <a href="#" class="text-dark px-2 text-decoration-none">Pricing</a>
+              <a href="#" class="text-dark px-2 text-decoration-none">About</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
